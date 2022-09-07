@@ -214,6 +214,62 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     text-decoration: none;
     color: #463f3a; }
 
+.main-contacto .contacto {
+  font-size: 20px;
+  text-align: center;
+  color: #463f3a; }
+
+.main-contacto h3 {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 10px; }
+
+.main-contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .main-contacto form .texto-contacto {
+    font-size: 15px;
+    color: #463f3a; }
+  .main-contacto form input {
+    width: 90%;
+    margin: 10px; }
+    .main-contacto form input::placeholder {
+      text-align: center; }
+  .main-contacto form textarea {
+    width: 90%;
+    margin: 10px; }
+    .main-contacto form textarea::placeholder {
+      text-align: center; }
+  .main-contacto form textarea:focus, .main-contacto form input:focus, .main-contacto form input[type]:focus {
+    border-color: #463f3a;
+    border: 5px;
+    box-shadow: 0 1px 1px #8a7e7c, 0 0 8px #8a7e7c;
+    outline: 0 none; }
+  .main-contacto form label {
+    font-size: 18px;
+    font-weight: bold; }
+  .main-contacto form .opcion {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #463f3a; }
+    .main-contacto form .opcion:hover {
+      font-size: 22px;
+      background-color: #8a7e7c;
+      color: white; }
+
+.main-contacto .imagen-redes {
+  display: flex;
+  justify-content: center; }
+  .main-contacto .imagen-redes a {
+    color: #463f3a;
+    font-size: 3rem;
+    margin: 5px; }
+    .main-contacto .imagen-redes a:hover {
+      font-size: 3.2rem; }
+
 @media (min-width: 768px) {
   /* header */
   .header a {
@@ -256,14 +312,14 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   .accordion .accordion-item .accordion-collapse .accordion-body {
     font-size: 20px; }
   /* html contacto */
-  h3 {
+  .main-contacto h3 {
     font-size: 25px; }
-  .texto-contacto {
+  .main-contacto form .texto-contacto {
     font-size: 18px; }
-  .i-contacto {
-    font-size: 3.5rem; }
-  .i-contacto:hover {
-    font-size: 3.8rem; } }
+  .main-contacto .imagen-redes .i-contacto {
+    font-size: 3.4rem; }
+    .main-contacto .imagen-redes .i-contacto:hover {
+      font-size: 3.8rem; } }
 
 @media (min-width: 1024px) {
   /* header */
@@ -285,18 +341,18 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   .main-galeria .grid-container-galeria {
     max-width: 1300px; }
   /* html contacto */
-  .contacto {
+  .main-contacto .contacto {
     font-size: 30px; }
-  h3 {
+  .main-contacto h3 {
     font-size: 30px; }
-  .texto-contacto {
+  .main-contacto form .texto-contacto {
     font-size: 20px;
     margin: 5px; }
-  .opcion {
+  .main-contacto form .opcion {
     font-size: 23px; }
-  .opcion:hover {
-    font-size: 25px; }
-  .i-contacto {
+    .main-contacto form .opcion:hover {
+      font-size: 25px; }
+  .main-contacto .imagen-redes .i-contacto {
     font-size: 3.8rem; }
-  .i-contacto:hover {
-    font-size: 4rem; } }
+    .main-contacto .imagen-redes .i-contacto:hover {
+      font-size: 4rem; } }

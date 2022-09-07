@@ -87,23 +87,28 @@
 
     }
 
-
-
-
     /* html contacto */
-    h3 {
-        font-size: 25px;
+    .main-contacto {
+        h3 {
+            font-size: 25px;
+        }
+
+        form {
+            .texto-contacto {
+                font-size: 18px;
+
+            }
+        }
+
+        .imagen-redes {
+            .i-contacto {
+                font-size: 3.4rem;
+
+                &:hover {
+                    font-size: 3.8rem;
+                }
+            }
+        }
     }
 
-    .texto-contacto {
-        font-size: 18px;
-    }
-
-    .i-contacto {
-        font-size: 3.5rem;
-    }
-
-    .i-contacto:hover {
-        font-size: 3.8rem;
-    }
 }

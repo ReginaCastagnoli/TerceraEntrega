@@ -46,32 +46,38 @@
     }
 
     /* html contacto */
-    .contacto {
-        font-size: 30px;
-    }
+    .main-contacto {
+        .contacto {
+            font-size: 30px;
+        }
 
-    h3 {
-        font-size: 30px;
-    }
+        h3 {
+            font-size: 30px;
+        }
 
-    .texto-contacto {
-        font-size: 20px;
-        margin: 5px;
-    }
+        form {
+            .texto-contacto {
+                font-size: 20px;
+                margin: 5px;
+            }
 
-    .opcion {
-        font-size: 23px;
-    }
+            .opcion {
+                font-size: 23px;
 
-    .opcion:hover {
-        font-size: 25px;
-    }
+                &:hover {
+                    font-size: 25px;
+                }
+            }
+        }
 
-    .i-contacto {
-        font-size: 3.8rem;
-    }
-
-    .i-contacto:hover {
-        font-size: 4rem;
+        .imagen-redes {
+            .i-contacto {
+                font-size: 3.8rem;
+                &:hover{
+                    font-size: 4rem;
+                }
+        
+            }
+        }
     }
 }
