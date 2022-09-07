@@ -75,20 +75,6 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   background-color: #bcb8b1;
   min-height: 15vh;
   text-align: center; }
-  .footer h4 {
-    color: #463f3a;
-    text-decoration: underline; }
-  .footer ul {
-    list-style: none;
-    text-decoration: none;
-    align-items: center;
-    margin: 0px; }
-    .footer ul li {
-      margin-top: 5px; }
-      .footer ul li i {
-        color: #463f3a;
-        font-size: 2rem;
-        margin: 5px; }
   .footer__redes {
     display: flex;
     justify-content: center;
@@ -101,8 +87,28 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     display: flex;
     flex-direction: column;
     padding: 0px; }
+    .footer__explorar li a {
+      color: #463f3a;
+      font-size: 2rem;
+      margin: 5px;
+      text-decoration: none; }
   .footer__grid {
     display: grid; }
+    .footer__grid h4 {
+      color: #463f3a;
+      text-decoration: underline; }
+    .footer__grid ul {
+      list-style: none;
+      text-decoration: none;
+      align-items: center;
+      margin: 0px; }
+      .footer__grid ul li {
+        margin-top: 5px; }
+        .footer__grid ul li i {
+          color: #463f3a;
+          font-size: 2rem;
+          margin: 5px;
+          text-decoration: none; }
 
 h1 {
   color: #463f3a;

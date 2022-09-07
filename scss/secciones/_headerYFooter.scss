@@ -56,16 +56,16 @@
 
     &__explorar {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         padding: 0px;
-        li{
-            a{
+
+        li {
+            .a-footer {
                 color: #463f3a;
-                    font-size: 2rem;
-                    margin: 5px;
-                    text-decoration: none;
+                text-decoration: none;
             }
         }
+
     }
 
     &__grid {
@@ -87,7 +87,6 @@
 
                 i {
                     color: #463f3a;
-                    font-size: 2rem;
                     margin: 5px;
                     text-decoration: none;
                 }
