@@ -1,0 +1,169 @@
+/* COLORES:
+#463f3a (MARRON OSC)
+#8a817c (MARRON CLARO)
+#bcb8b1 (BEIGE OSC)
+#f4f3ee (BEIGE)
+#e0afa0 (SALMON)
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 5; }
+  .header__fondoColor {
+    background-color: #bcb8b1b8; }
+    .header__fondoColor a {
+      color: #463f3a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px; }
+      .header__fondoColor a:hover {
+        color: #f4f3ee;
+        font-weight: bolder;
+        font-size: 25px; }
+  .header__logo {
+    height: 100px; }
+  .header__icono {
+    background-color: transparent;
+    transition: var(--bs-navbar-toggler-transition);
+    color: #463f3a;
+    text-decoration: none;
+    font-size: 25px;
+    border: none; }
+
+.footer {
+  background-color: #bcb8b1;
+  min-height: 15vh;
+  text-align: center; }
+  .footer h4 {
+    color: #463f3a;
+    text-decoration: underline; }
+  .footer ul {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin: 0px; }
+    .footer ul li {
+      margin-top: 5px; }
+      .footer ul li i {
+        color: #463f3a;
+        font-size: 2rem;
+        margin: 5px; }
+  .footer__redes {
+    display: flex;
+    justify-content: center;
+    padding: 0px; }
+  .footer__contactanos {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  .footer__logo {
+    height: 120px; }
+  .footer__grid {
+    display: grid; }
+
+h1 {
+  color: #463f3a;
+  text-align: center;
+  padding: 7px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 30px;
+  font-weight: bold; }
+
+.h2 {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #8a7e7c;
+  text-align: center;
+  margin: 40PX;
+  text-decoration: underline; }
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+
+.main-index .img-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .main-index .img-index .container-index {
+    position: relative; }
+    .main-index .img-index .container-index img {
+      width: 170px;
+      padding: 5px; }
+    .main-index .img-index .container-index .content {
+      position: absolute;
+      bottom: 0;
+      background: #463f3a7c;
+      color: #f1f1f1;
+      width: 100%;
+      height: 20%; }
+      .main-index .img-index .container-index .content .h1-index {
+        color: #ebedee;
+        font-size: 15px; }
+
+.main-index .quien-soy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .main-index .quien-soy .presentacion {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 10px; }
+  .main-index .quien-soy .fotoJimena {
+    margin: 50px; }
+
+@media (min-width: 768px) {
+  /* header */
+  .header a {
+    font-size: 20px; }
+    .header a:hover {
+      font-size: 25px; }
+  .header__logo {
+    height: 120px; }
+  /* footer */
+  .footer__grid {
+    grid-template-columns: repeat(3, 1fr); }
+  /*  html index */
+  .main-index .img-index {
+    justify-content: center; }
+    .main-index .img-index img {
+      width: 270px;
+      margin: 0px; }
+    .main-index .img-index .h1-index {
+      color: #ebedee;
+      font-size: 20px; }
+  .main-index .quien-soy {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around; }
+    .main-index .quien-soy .presentacion {
+      font-size: 20px; }
+  /* html productos */
+  .grid-container-card {
+    width: 48rem; }
+  /*  html galeria */
+  .grid-container-galeria {
+    display: grid;
+    max-width: 850px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch; }
+  /* html faq */
+  .accordion-body {
+    font-size: 20px; }
+  .accordion-button-faq {
+    font-size: 23px; }
+  /* html contacto */
+  h3 {
+    font-size: 25px; }
+  .texto-contacto {
+    font-size: 18px; }
+  .i-contacto {
+    font-size: 3.5rem; }
+  .i-contacto:hover {
+    font-size: 3.8rem; } }

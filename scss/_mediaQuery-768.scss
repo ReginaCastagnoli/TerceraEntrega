@@ -1,0 +1,90 @@
+@media(min-width:768px) {
+
+    /* header */
+    .header {
+        a {
+            font-size: 20px;
+
+            &:hover {
+                font-size: 25px;
+            }
+        }
+
+        &__logo {
+            height: 120px;
+
+        }
+    }
+
+    /* footer */
+    .footer__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*  html index */
+    .main-index {
+        .img-index {
+            justify-content: center;
+
+            img {
+                width: 270px;
+                margin: 0px;
+            }
+
+            .h1-index {
+                color: #ebedee;
+                font-size: 20px;
+            }
+        }
+
+        .quien-soy {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-around;
+
+            .presentacion {
+                font-size: 20px;
+            }
+        }
+
+    }
+    
+    /* html productos */
+    .grid-container-card {
+        width: 48rem;
+    }
+
+    /*  html galeria */
+    .grid-container-galeria {
+        display: grid;
+        max-width: 850px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: stretch;
+    }
+
+    /* html faq */
+    .accordion-body {
+        font-size: 20px;
+    }
+
+    .accordion-button-faq {
+        font-size: 23px;
+    }
+
+    /* html contacto */
+    h3 {
+        font-size: 25px;
+    }
+
+    .texto-contacto {
+        font-size: 18px;
+    }
+
+    .i-contacto {
+        font-size: 3.5rem;
+    }
+
+    .i-contacto:hover {
+        font-size: 3.8rem;
+    }
+}
