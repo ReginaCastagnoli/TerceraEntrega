@@ -1,7 +1,3 @@
-%titulo-card {
-    text-align: center;
-    font-weight: bolder;
-}
 
 %texto-card {
     text-align: center;
@@ -47,8 +43,15 @@
 @mixin fontStyle ($alineado) {
     font-size: 20px;
     color: $marron-oscuro;
+    text-align: $alineado;
 }
 
 %alineado{
     text-align: center;
+}
+@mixin fontStyle ($titulo-card){
+    font-size: 20px;
+    color: $marron-oscuro;
+    text-align: center;
+    font-weight:$titulo-card;
 }

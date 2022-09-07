@@ -11,6 +11,41 @@
   padding: 0;
   box-sizing: border-box; }
 
+main .grid-container-card .card .card-body .card-text {
+  text-align: center;
+  font-size: 15px; }
+
+main .grid-container-card .card .card-body .boton {
+  background-color: #bcb8b1;
+  padding: 0.75rem;
+  border-width: 1rem;
+  border-radius: 0.375rem;
+  display: inline-block;
+  color: #463f3a;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center; }
+
+.main-index .img-index .container-index .content .h1-index {
+  color: #ebedee;
+  font-size: 15px; }
+
+.main-index .quien-soy .presentacion {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  margin: 10px; }
+
+main .accordion .accordion-item .accordion-collapse .accordion-body {
+  font-size: 15px;
+  color: #463f3a; }
+
+.main-contacto h3 {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 10px; }
+
 .header {
   position: sticky;
   top: 0;
@@ -62,8 +97,10 @@
     display: flex;
     flex-direction: column;
     padding: 0px; }
-  .footer__logo {
-    height: 120px; }
+  .footer__explorar {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
   .footer__grid {
     display: grid; }
 
@@ -102,20 +139,12 @@ main {
       color: #f1f1f1;
       width: 100%;
       height: 20%; }
-      .main-index .img-index .container-index .content .h1-index {
-        color: #ebedee;
-        font-size: 15px; }
 
 .main-index .quien-soy {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%; }
-  .main-index .quien-soy .presentacion {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    margin: 10px; }
   .main-index .quien-soy .fotoJimena {
     margin: 50px; }
 
@@ -127,25 +156,12 @@ main .grid-container-card {
     display: flex;
     flex-direction: column; }
     main .grid-container-card .card .card-body .card-title {
-      font-size: 18px;
-      text-align: center;
-      font-weight: bolder;
-      color: #463f3a; }
-    main .grid-container-card .card .card-body .card-text {
-      text-align: center;
-      font-size: 15px; }
-    main .grid-container-card .card .card-body .boton {
-      background-color: #bcb8b1;
-      padding: 0.75rem;
-      border-width: 1rem;
-      border-radius: 0.375rem;
-      display: inline-block;
+      font-size: 20px;
       color: #463f3a;
-      font-weight: bold;
-      text-decoration: none;
-      text-align: center; }
-      main .grid-container-card .card .card-body .boton:hover {
-        color: #ebedee; }
+      text-align: center;
+      font-weight: bolder; }
+    main .grid-container-card .card .card-body .boton:hover {
+      color: #ebedee; }
 
 .main-galeria .img-galeria {
   display: flex;
@@ -208,23 +224,15 @@ main .accordion .accordion-item .accordion-header .accordion-button-faq {
     box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
     font-weight: bold; }
 
-main .accordion .accordion-item .accordion-collapse .accordion-body {
-  font-size: 15px;
+main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
+  text-decoration: none;
   color: #463f3a; }
-  main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
-    text-decoration: none;
-    color: #463f3a; }
 
 .main-contacto .contacto {
   font-size: 20px;
+  color: #463f3a;
   text-align: center;
-  color: #463f3a; }
-
-.main-contacto h3 {
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  margin: 10px; }
+  font-weight: text-align; }
 
 .main-contacto form {
   display: flex;
@@ -243,7 +251,9 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     margin: 10px; }
     .main-contacto form textarea::placeholder {
       text-align: center; }
-  .main-contacto form textarea:focus, .main-contacto form input:focus, .main-contacto form input[type]:focus {
+  .main-contacto form textarea:focus,
+  .main-contacto form input:focus,
+  .main-contacto form input[type]:focus {
     border-color: #463f3a;
     border: 5px;
     box-shadow: 0 1px 1px #8a817c, 0 0 8px #8a817c;
@@ -288,9 +298,9 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     .main-index .img-index .container-index img {
       width: 270px;
       margin: 0px; }
-    .main-index .img-index .container-index .h1-index {
+    .main-index .img-index .container-index .content .h1-index {
       color: #ebedee;
-      font-size: 20px; }
+      font-size: 22px; }
   .main-index .quien-soy {
     flex-direction: row-reverse;
     align-items: center;

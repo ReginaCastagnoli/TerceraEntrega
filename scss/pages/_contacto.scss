@@ -1,6 +1,6 @@
 .main-contacto {
     .contacto {
-        @include fontStyle ($alineado);
+        @include fontStyle (text-align);
         
     }
 

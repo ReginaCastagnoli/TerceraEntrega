@@ -1,5 +1,4 @@
 @media(min-width:768px) {
-
     /* header */
     .header {
         a {
@@ -32,10 +31,14 @@
                     margin: 0px;
                 }
 
-                .h1-index {
-                    color: #ebedee;
-                    font-size: 20px;
+                .content {
+                    .h1-index {
+                        color: #ebedee;
+                        font-size: 22px;
+                    }
                 }
+
+
             }
         }
 

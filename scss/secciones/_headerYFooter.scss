@@ -41,27 +41,6 @@
     background-color: #bcb8b1;
     min-height: 15vh;
     text-align: center;
-    h4 {
-        color: #463f3a;
-        text-decoration: underline;
-    }
-
-    ul {
-        list-style: none;
-        text-decoration: none;
-        align-items: center;
-        margin: 0px;
-
-        li {
-            margin-top: 5px;
-
-            i {
-                color: #463f3a;
-                font-size: 2rem;
-                margin: 5px;
-            }
-        }
-    }
 
     &__redes {
         display: flex;
@@ -74,10 +53,45 @@
         flex-direction: column;
         padding: 0px;
     }
-    &__logo{
-        height: 120px;
+
+    &__explorar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
     }
-    &__grid{
+
+    &__grid {
         display: grid;
+
+        h4 {
+            color: #463f3a;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+            margin: 0px;
+
+            li {
+                margin-top: 5px;
+
+                i {
+                    color: #463f3a;
+                    font-size: 2rem;
+                    margin: 5px;
+                    text-decoration: none;
+                }
+
+                a {
+                    color: #463f3a;
+                    font-size: 2rem;
+                    margin: 5px;
+                }
+            }
+        }
+
+
     }
 }
