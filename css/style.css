@@ -146,6 +146,32 @@ main .grid-container-card {
       main .grid-container-card .card .card-body .boton:hover {
         color: #ebedee; }
 
+.main-galeria .img-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .main-galeria .img-galeria .container {
+    position: relative; }
+    .main-galeria .img-galeria .container .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #463f3a87;
+      color: #f1f1f1;
+      width: 95%;
+      transition: .5s ease;
+      opacity: 0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center; }
+      .main-galeria .img-galeria .container .overlay:hover {
+        opacity: 1; }
+    .main-galeria .img-galeria .container:hover {
+      opacity: 1; }
+
+.main-galeria .video {
+  width: 100%; }
+
 @media (min-width: 768px) {
   /* header */
   .header a {
@@ -177,7 +203,7 @@ main .grid-container-card {
     width: 48rem;
     justify-content: space-around; }
   /*  html galeria */
-  .grid-container-galeria {
+  .main-galeria .grid-container-galeria {
     display: grid;
     max-width: 850px;
     grid-template-columns: repeat(3, 1fr);
@@ -214,7 +240,7 @@ main .grid-container-card {
   main .grid-container-card {
     width: 64rem; }
   /* html galeria */
-  .grid-container-galeria {
+  .main-galeria .grid-container-galeria {
     max-width: 1300px; }
   /* html contacto */
   .contacto {

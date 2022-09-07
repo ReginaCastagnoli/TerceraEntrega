@@ -60,13 +60,14 @@
 
 
     /*  html galeria */
-    .grid-container-galeria {
-        display: grid;
-        max-width: 850px;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: stretch;
+    .main-galeria {
+        .grid-container-galeria {
+            display: grid;
+            max-width: 850px;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: stretch;
+        }
     }
-
     /* html faq */
     .accordion-body {
         font-size: 20px;
