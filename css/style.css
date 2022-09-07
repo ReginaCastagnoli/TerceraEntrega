@@ -118,6 +118,34 @@ main {
   .main-index .quien-soy .fotoJimena {
     margin: 50px; }
 
+main .grid-container-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 23.25rem; }
+  main .grid-container-card .card .card-body {
+    display: flex;
+    flex-direction: column; }
+    main .grid-container-card .card .card-body .card-title {
+      font-size: 18px;
+      text-align: center;
+      font-weight: bolder;
+      color: #463f3a; }
+    main .grid-container-card .card .card-body .card-text {
+      text-align: center;
+      font-size: 15px; }
+    main .grid-container-card .card .card-body .boton {
+      background-color: #bcb8b1;
+      padding: 0.75rem;
+      border-width: 1rem;
+      border-radius: 0.375rem;
+      display: inline-block;
+      color: #463f3a;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center; }
+      main .grid-container-card .card .card-body .boton:hover {
+        color: #ebedee; }
+
 @media (min-width: 768px) {
   /* header */
   .header a {
@@ -132,10 +160,10 @@ main {
   /*  html index */
   .main-index .img-index {
     justify-content: center; }
-    .main-index .img-index img {
+    .main-index .img-index .container-index img {
       width: 270px;
       margin: 0px; }
-    .main-index .img-index .h1-index {
+    .main-index .img-index .container-index .h1-index {
       color: #ebedee;
       font-size: 20px; }
   .main-index .quien-soy {
@@ -145,8 +173,9 @@ main {
     .main-index .quien-soy .presentacion {
       font-size: 20px; }
   /* html productos */
-  .grid-container-card {
-    width: 48rem; }
+  main .grid-container-card {
+    width: 48rem;
+    justify-content: space-around; }
   /*  html galeria */
   .grid-container-galeria {
     display: grid;
@@ -167,3 +196,39 @@ main {
     font-size: 3.5rem; }
   .i-contacto:hover {
     font-size: 3.8rem; } }
+
+@media (min-width: 1024px) {
+  /* header */
+  .header__logo {
+    height: 150px; }
+  /*  html index */
+  .main-index .img-index .container-index img {
+    width: 400px; }
+  .main-index .img-index .container-index .h1-index {
+    color: #ebedee;
+    font-size: 25px; }
+  .main-index .quien-soy .presentacion {
+    text-align: center;
+    padding: 10px; }
+  /* html productos */
+  main .grid-container-card {
+    width: 64rem; }
+  /* html galeria */
+  .grid-container-galeria {
+    max-width: 1300px; }
+  /* html contacto */
+  .contacto {
+    font-size: 30px; }
+  h3 {
+    font-size: 30px; }
+  .texto-contacto {
+    font-size: 20px;
+    margin: 5px; }
+  .opcion {
+    font-size: 23px; }
+  .opcion:hover {
+    font-size: 25px; }
+  .i-contacto {
+    font-size: 3.8rem; }
+  .i-contacto:hover {
+    font-size: 4rem; } }

@@ -26,14 +26,16 @@
         .img-index {
             justify-content: center;
 
-            img {
-                width: 270px;
-                margin: 0px;
-            }
+            .container-index {
+                img {
+                    width: 270px;
+                    margin: 0px;
+                }
 
-            .h1-index {
-                color: #ebedee;
-                font-size: 20px;
+                .h1-index {
+                    color: #ebedee;
+                    font-size: 20px;
+                }
             }
         }
 
@@ -46,13 +48,16 @@
                 font-size: 20px;
             }
         }
+    }
 
-    }
-    
     /* html productos */
-    .grid-container-card {
-        width: 48rem;
+    main {
+        .grid-container-card {
+            width: 48rem;
+            justify-content: space-around;
+        }
     }
+
 
     /*  html galeria */
     .grid-container-galeria {
