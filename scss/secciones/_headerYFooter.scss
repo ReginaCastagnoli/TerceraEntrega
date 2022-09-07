@@ -56,8 +56,16 @@
 
     &__explorar {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         padding: 0px;
+        li{
+            a{
+                color: #463f3a;
+                    font-size: 2rem;
+                    margin: 5px;
+                    text-decoration: none;
+            }
+        }
     }
 
     &__grid {
@@ -84,11 +92,6 @@
                     text-decoration: none;
                 }
 
-                a {
-                    color: #463f3a;
-                    font-size: 2rem;
-                    margin: 5px;
-                }
             }
         }
 
