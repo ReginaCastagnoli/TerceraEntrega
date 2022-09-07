@@ -13,6 +13,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import"./variables/typo";
+@import"./variables/colores";
 
 @import"./secciones/headerYFooter";
 @import"./secciones/tipografia";

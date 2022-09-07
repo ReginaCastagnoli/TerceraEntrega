@@ -21,8 +21,7 @@
                 height: 20%;
 
                 .h1-index {
-                    color: #ebedee;
-                    font-size: 15px;
+                    @extend %h1-index;
                 }
             }
         }
@@ -36,10 +35,7 @@
         align-items: center;
         width: 100%;
         .presentacion {
-            font-size: 20px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-align: justify;
-            margin: 10px;
+           @extend %presentacion;
         }
         .fotoJimena {
             margin: 50px;

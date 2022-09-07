@@ -5,6 +5,7 @@
 #f4f3ee (BEIGE)
 #e0afa0 (SALMON)
  */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -70,12 +71,12 @@ h1 {
   color: #463f3a;
   text-align: center;
   padding: 7px;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 30px;
   font-weight: bold; }
 
 .h2 {
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: "Dancing Script", cursive;
   color: #8a7e7c;
   text-align: center;
   margin: 40PX;
@@ -203,7 +204,7 @@ main .accordion .accordion-item .accordion-header .accordion-button-faq {
     transition: var(--bs-accordion-btn-icon-transition); }
   main .accordion .accordion-item .accordion-header .accordion-button-faq:not(.collapsed) {
     color: white;
-    background-color: #8a7e7c;
+    background-color: #8a817c;
     box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
     font-weight: bold; }
 
@@ -245,7 +246,7 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   .main-contacto form textarea:focus, .main-contacto form input:focus, .main-contacto form input[type]:focus {
     border-color: #463f3a;
     border: 5px;
-    box-shadow: 0 1px 1px #8a7e7c, 0 0 8px #8a7e7c;
+    box-shadow: 0 1px 1px #8a817c, 0 0 8px #8a817c;
     outline: 0 none; }
   .main-contacto form label {
     font-size: 18px;
@@ -257,7 +258,7 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     color: #463f3a; }
     .main-contacto form .opcion:hover {
       font-size: 22px;
-      background-color: #8a7e7c;
+      background-color: #8a817c;
       color: white; }
 
 .main-contacto .imagen-redes {

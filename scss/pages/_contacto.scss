@@ -1,15 +1,11 @@
 .main-contacto {
     .contacto {
-        font-size: 20px;
-        text-align: center;
-        color: #463f3a;
+        @include fontStyle ($alineado);
+        
     }
 
     h3 {
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        margin: 10px;
+        @extend %h3;
     }
 
     form {
@@ -19,14 +15,15 @@
 
         .texto-contacto {
             font-size: 15px;
-            color: #463f3a;
+            color: $marron-oscuro;
 
         }
 
         input {
             width: 90%;
             margin: 10px;
-            &::placeholder{
+
+            &::placeholder {
                 text-align: center;
             }
         }
@@ -34,14 +31,18 @@
         textarea {
             width: 90%;
             margin: 10px;
-            &::placeholder{
+
+            &::placeholder {
                 text-align: center;
             }
         }
-        textarea:focus, input:focus, input[type]:focus {
-            border-color:#463f3a;
+
+        textarea:focus,
+        input:focus,
+        input[type]:focus {
+            border-color: $marron-oscuro;
             border: 5px;
-            box-shadow: 0 1px 1px #8a7e7c, 0 0 8px #8a7e7c;
+            box-shadow: 0 1px 1px $marron-claro, 0 0 8px $marron-claro;
             outline: 0 none;
         }
 
@@ -54,11 +55,11 @@
             margin: 5px;
             font-size: 20px;
             font-weight: bolder;
-            color: #463f3a;
+            color: $marron-oscuro;
 
             &:hover {
                 font-size: 22px;
-                background-color: #8a7e7c;
+                background-color: $marron-claro;
                 color: white;
             }
         }
@@ -69,10 +70,11 @@
         justify-content: center;
 
         a {
-            color: #463f3a;
+            color: $marron-oscuro;
             font-size: 3rem;
             margin: 5px;
-            &:hover{
+
+            &:hover {
                 font-size: 3.2rem;
             }
         }

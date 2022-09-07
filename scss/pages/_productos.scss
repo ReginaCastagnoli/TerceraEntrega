@@ -11,27 +11,15 @@ main {
                 flex-direction: column;
 
                 .card-title {
-                    font-size: 18px;
-                    text-align: center;
-                    font-weight: bolder;
-                    color: #463f3a;
+                    @include fontStyle ($titulo-card);
                 }
 
                 .card-text {
-                    text-align: center;
-                    font-size: 15px;
+                    @extend %texto-card;
                 }
 
                 .boton {
-                    background-color: #bcb8b1;
-                    padding: 0.75rem;
-                    border-width: 1rem;
-                    border-radius: 0.375rem;
-                    display: inline-block;
-                    color: #463f3a;
-                    font-weight: bold;
-                    text-decoration: none;
-                    text-align: center;
+                    @extend %boton-card;
 
                     &:hover {
                         color: #ebedee;
