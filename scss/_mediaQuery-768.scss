@@ -68,14 +68,27 @@
             justify-items: stretch;
         }
     }
+
     /* html faq */
-    .accordion-body {
-        font-size: 20px;
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button-faq {
+                    font-size: 23px;
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    font-size: 20px;
+                }
+            }
+        }
+
     }
 
-    .accordion-button-faq {
-        font-size: 23px;
-    }
+
+
 
     /* html contacto */
     h3 {

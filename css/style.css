@@ -172,6 +172,48 @@ main .grid-container-card {
 .main-galeria .video {
   width: 100%; }
 
+main .banner {
+  width: 100%;
+  margin: 0%;
+  margin-bottom: 10px; }
+
+main .accordion .accordion-item .accordion-header .accordion-button-faq {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1rem;
+  color: #463f3a;
+  text-align: left;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition); }
+  main .accordion .accordion-item .accordion-header .accordion-button-faq::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition); }
+  main .accordion .accordion-item .accordion-header .accordion-button-faq:not(.collapsed) {
+    color: white;
+    background-color: #8a7e7c;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+    font-weight: bold; }
+
+main .accordion .accordion-item .accordion-collapse .accordion-body {
+  font-size: 15px;
+  color: #463f3a; }
+  main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
+    text-decoration: none;
+    color: #463f3a; }
+
 @media (min-width: 768px) {
   /* header */
   .header a {
@@ -209,10 +251,10 @@ main .grid-container-card {
     grid-template-columns: repeat(3, 1fr);
     justify-items: stretch; }
   /* html faq */
-  .accordion-body {
-    font-size: 20px; }
-  .accordion-button-faq {
+  .accordion .accordion-item .accordion-header .accordion-button-faq {
     font-size: 23px; }
+  .accordion .accordion-item .accordion-collapse .accordion-body {
+    font-size: 20px; }
   /* html contacto */
   h3 {
     font-size: 25px; }
