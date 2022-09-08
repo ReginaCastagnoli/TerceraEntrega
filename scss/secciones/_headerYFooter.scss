@@ -42,58 +42,38 @@
     min-height: 15vh;
     text-align: center;
 
-    &__redes {
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-    }
-
-    &__contactanos {
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-    }
-
-    &__explorar {
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-
-        li {
-            .a-footer {
-                color: #463f3a;
-                text-decoration: none;
-            }
-        }
-
-    }
-
     &__grid {
         display: grid;
+        list-style: none;
+        text-decoration: none;
+        align-items: center;
+        margin: 0px;
 
-        h4 {
-            color: #463f3a;
-            text-decoration: underline;
-        }
+        .col-container {
 
-        ul {
-            list-style: none;
-            text-decoration: none;
-            align-items: center;
-            margin: 0px;
-
-            li {
-                margin-top: 5px;
-
-                i {
-                    color: #463f3a;
-                    margin: 5px;
-                    text-decoration: none;
-                }
-
+            h4 {
+                color: #463f3a;
+                text-decoration: underline;
             }
+
+            &__ul {
+                display: flex;
+                justify-content: center;
+                padding: 0px;
+
+                li {
+                    margin-top: 5px;
+
+                    i {
+                        color: #463f3a;
+                        font-size: 1.5rem;
+                        margin: 5px;
+                        text-decoration: none;
+                    }
+                }
+            }
+
         }
-
-
     }
+
 }

@@ -87,10 +87,8 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
     display: flex;
     flex-direction: column;
     padding: 0px; }
-    .footer__explorar li a {
+    .footer__explorar li .a-footer {
       color: #463f3a;
-      font-size: 2rem;
-      margin: 5px;
       text-decoration: none; }
   .footer__grid {
     display: grid; }
@@ -106,7 +104,6 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
         margin-top: 5px; }
         .footer__grid ul li i {
           color: #463f3a;
-          font-size: 2rem;
           margin: 5px;
           text-decoration: none; }
 
