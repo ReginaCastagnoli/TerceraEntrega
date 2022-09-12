@@ -75,35 +75,24 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   background-color: #bcb8b1;
   min-height: 15vh;
   text-align: center; }
-  .footer__redes {
-    display: flex;
-    justify-content: center;
-    padding: 0px; }
-  .footer__contactanos {
-    display: flex;
-    flex-direction: column;
-    padding: 0px; }
-  .footer__explorar {
-    display: flex;
-    flex-direction: column;
-    padding: 0px; }
-    .footer__explorar li .a-footer {
-      color: #463f3a;
-      text-decoration: none; }
   .footer__grid {
-    display: grid; }
-    .footer__grid h4 {
+    display: grid;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    margin: 0px; }
+    .footer__grid .col-container h4 {
       color: #463f3a;
       text-decoration: underline; }
-    .footer__grid ul {
-      list-style: none;
-      text-decoration: none;
-      align-items: center;
-      margin: 0px; }
-      .footer__grid ul li {
+    .footer__grid .col-container__ul {
+      display: flex;
+      justify-content: center;
+      padding: 0px; }
+      .footer__grid .col-container__ul li {
         margin-top: 5px; }
-        .footer__grid ul li i {
+        .footer__grid .col-container__ul li i {
           color: #463f3a;
+          font-size: 1.5rem;
           margin: 5px;
           text-decoration: none; }
 

@@ -3,7 +3,7 @@ main {
     .grid-container-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 23.25rem;
+        justify-content: space-around;
 
         .card {
             .card-body {
